@@ -1,0 +1,28 @@
+.navigation {
+  background-color: #39ac00;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.navigation a:hover {
+  background-color: #555;
+}
+
+.navigation .add-button {
+  background-color: #4d64f7;
+  padding: 0.5rem 1rem;
+}
+
+.navigation .add-button:hover {
+  background-color: #555;
+} 

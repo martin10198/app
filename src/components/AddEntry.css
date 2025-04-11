@@ -1,0 +1,60 @@
+.add-entry {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+   font-size: 1.2rem;
+}
+
+.form-group textarea {
+  height: 100px;
+}
+
+button {
+  background-color: #4d64f7;
+  width: 80%;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 1.1rem;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.photo-preview {
+  margin-top: 10px;
+}
+
+.photo-preview img {
+  max-width: 100%;
+  max-height: 300px;
+  margin-bottom: 10px;
+}
+
+video {
+  max-width: 100%;
+  margin-bottom: 10px;
+} 
